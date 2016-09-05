@@ -7,9 +7,12 @@ upstream's X changelog entry, dpkg-genchanges thinks that this is a
 revision and we don't need to include the upstream tarball in the
 upload.
 
+This also confuses dgit: it will pass -v to dpkg-buildpackage such
+that upstream's changelog entry is included in the .changes file.
+
 To deal with this, pass -sa to dpkg-buildpackage.  If using dgit, the
 magic incantation is:
 
-    dgit --ch:-sa [s]build
+    dgit --ch:-sa -v_ [s]build
 
- -- Sean Whitton <spwhitton@spwhitton.name>, Thu, 23 Jun 2016 17:23:30 +0900
+ -- Sean Whitton <spwhitton@spwhitton.name>, Mon,  5 Sep 2016 16:58:09 -0700
