@@ -1,10 +1,10 @@
-propellor (3.2.0-1) UNRELEASED; urgency=medium
+propellor (3.2.0-1) unstable; urgency=medium
 
   * Package new upstream release.
   * Drop no-upstream-changelog libghc-propellor-doc Lintian override.
     Obsoleted by new haskell-devscripts.
 
- -- Sean Whitton <spwhitton@spwhitton.name>  Sat, 10 Sep 2016 18:42:28 -0700
+ -- Sean Whitton <spwhitton@spwhitton.name>  Sat, 10 Sep 2016 18:55:56 -0700
 
 propellor (3.2.0) unstable; urgency=medium
 
