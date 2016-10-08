@@ -1,3 +1,9 @@
+propellor (3.2.1-1) UNRELEASED; urgency=medium
+
+  * Package new upstream release.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Sat, 08 Oct 2016 08:43:47 -0700
+
 propellor (3.2.1) unstable; urgency=medium
 
   * Simplify Debootstrap.sourceInstall since #770217 was fixed.
