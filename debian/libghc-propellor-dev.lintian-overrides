@@ -1,1 +1,5 @@
 binary-or-shlib-defines-rpath
+# this is Apache mod_speling
+spelling-error-in-binary * speling spelling
+# changing this would require an API change, so 'wontfix'
+spelling-error-in-binary * Recurrance Recurrence
