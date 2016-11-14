@@ -1,9 +1,9 @@
-propellor (3.2.2-1) UNRELEASED; urgency=medium
+propellor (3.2.2-1) unstable; urgency=medium
 
   * Package new upstream release.
   * Add two overrides for spelling-error-in-binary in libghc-propellor-dev.
 
- -- Sean Whitton <spwhitton@spwhitton.name>  Sat, 12 Nov 2016 09:30:20 -0700
+ -- Sean Whitton <spwhitton@spwhitton.name>  Sun, 13 Nov 2016 20:47:44 -0700
 
 propellor (3.2.2) unstable; urgency=medium
 
