@@ -1,3 +1,9 @@
+propellor (3.2.3-1) unstable; urgency=medium
+
+  * Package new upstream release.
+
+ -- Sean Whitton <spwhitton@spwhitton.name>  Tue, 22 Nov 2016 14:16:29 -0700
+
 propellor (3.2.3) unstable; urgency=medium
 
   * Improve extraction of gpg secret key id list, to work with gpg 2.1.
